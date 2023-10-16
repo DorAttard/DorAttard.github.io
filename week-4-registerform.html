@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form Task</title>
+</head>
+
+<body>
+    <h1>Register your soul with us</h1>
+    <form action="http://www.google.com">
+    <label for="fname">First Name:</label>
+    <input id="fname" name="fname" type="text" placeholder="Marushka" required>
+    <label for="sname">Last Name:</label>
+    <input id="sname" name="sname" type="text" placeholder="Sammut" required>
+<div>
+    <input type="radio" id="genderchoiceM" name="genderchoice" value="Male" />
+    <label for="genderchoice">Male</label>
+
+    <input type="radio" id="genderchoiceF" name="genderchoice" value="Female" />
+    <label for="genderchoiceF">Female</label>
+
+    <input type="radio" id="genderchoiceO" name="genderchoice" value="Other" />
+    <label for="genderchoiceO">Other</label>
+</div>
+
+<div>
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email" placeholder="make sure it is valid!" required>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" placeholder="5-10" minlength="5" maxlength="10" required>
+</div>
+
+<div>
+    <label for="select-choice">DOB:</label>
+      <select name="select-choice" id="select-choice">
+        <option value="0" selected disabled>M</option>
+        <option value="january">~Jan~</option>
+        <option value="february">~Feb~</option>
+        <option value="march">~Mar~</option>
+        <option value="april">~Apr~</option>
+        <option value="may">~May~</option>
+        <option value="june">~Jun~</option>
+        <option value="july">~Jul~</option>
+        <option value="august">~Aug~</option>
+        <option value="september">~Sep~</option>
+        <option value="october">~Oct~</option>
+        <option value="november">~Nov~</option>
+        <option value="december">~Dec~</option>
+      </select>
+
+      <select name="birthday-day" id="day">
+        <option value="0" selected disabled>D</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+        <option value="4">04</option>
+        <option value="5">05</option>
+        <option value="6">06</option>
+        <option value="7">07</option>
+        <option value="8">08</option>
+        <option value="9">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+
+      </select>
+
+      <select name="birthday-year" id="year">
+        <option value="0" selected disabled>Y</option>
+        <option value="1993">1993</option>
+        <option value="1992">1992</option>
+        <option value="1991">1991</option>
+        <option value="1990">1990</option>
+      </select>
+</div>
+
+<div>
+    <label for="TOC">I agree to relinquish my rights to the internet gods:</label>
+    <input id="TOC" name="TOC" type="checkbox" required>
+</div>
+
+<div>
+    <input type="submit">
+</div>
+</form>
+
+</body>
+
+</html>
