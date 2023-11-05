@@ -1,0 +1,54 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 100px;
+    padding: 0;
+    background-color: #fff;
+    color: #354b63;
+}
+
+header {
+    background-color: #3098dd;
+    text-align: center;
+    padding: 20px;
+}
+
+article (
+
+)
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.main {
+    padding: 20px;
+}
+
+.blog-post {
+    border: 20px solid #bdc7cf;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.date {
+    color: #3098dd;
+    letter-spacing: 2px;
+}
+
+.quote {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 8px solid #bdc7cf;
+}
+
+h2 {
+    color: #354b63;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #bdc7cf;
+    margin: 20px 0;
+}
