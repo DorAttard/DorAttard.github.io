@@ -1,4 +1,4 @@
-#window {
+body {
     font-family: 'Audiowide', sans-serif;
     font-family: 'VT323', monospace;   
 }
@@ -42,3 +42,27 @@ a {
     color: black;
     }
 
+.main {
+    margin-top: 69px;
+    height: 100vh;
+    border: 3px solid rgb(185, 185, 185); 
+    border-style: inset;
+    inset: 5px;
+    position: fixed;
+    overflow: scroll;
+    outline: 5px solid rgb(185, 185, 185);   
+}
+.main::-webkit-scrollbar {
+    width: 20px;
+  }
+.main::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+
+/*
+.text {
+
+    border: gray;
+    border-style: inset;
+  
+}*/
