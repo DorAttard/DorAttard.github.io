@@ -54,3 +54,19 @@ a {
     overflow: scroll;
     outline: 5px solid rgb(185, 185, 185);   
 }
+
+#footer {
+    background-color: rgb(185, 185, 185);
+    height: 30px;
+
+}
+
+.navbar-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#line {
+    border: black;
+    border-style: dashed;
+} 
