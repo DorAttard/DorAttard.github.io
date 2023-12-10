@@ -5,7 +5,7 @@ html{
 body {
     font-family: 'Audiowide', sans-serif;
     font-family: 'VT323', monospace; 
-    margin-top: 5%;
+    margin-top: 4vh;
     background-color: black;
     display: block;   
 
@@ -19,7 +19,7 @@ body {
     border: 5px rgb(222, 222, 222);
     border-style: outset;
     padding: 1vh;
-    width: 80vw;
+    width: 85vw;
     margin: 0 auto;
     position: fixed center;
  
@@ -47,14 +47,17 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(185, 185, 185);
-    background-color: rgb(185, 185, 185);
+    /* background-color: rgb(185, 185, 185); */
+    /* background-color: rgb(185, 185, 185); */
+    background-image: url(gradientT.jpg);
+    background-size: cover;
 }
   
 .overlay-content {
+    width: 100%;
     position: relative;
     top: 25%;
-    width: 100%;
+    /* width: 80vw; */
     text-align: center;
     margin-top: 30px;
  
@@ -64,13 +67,13 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
 }
   
 .overlay a:hover, .overlay a:focus {
-    color: blue;
+    color: white;
 }
   
 .overlay .closebtn {
@@ -95,7 +98,7 @@ body {
 .main {
     margin: 0 auto;
     padding: 1vh;
-    width: 80vw;
+    width: 85vw;
     background-color: white;
     overflow: scroll; 
     position: fixed center;
@@ -174,12 +177,63 @@ ul {
   }
 
 /* -------- info ---------- */
-
-#t-gradient {
-    background-image: url(gradient.jpg);
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url(gradientT.jpg);
     background-size: cover;
-    margin: 0 auto;
-    display: block;
-    padding: 5%;
+    /* margin: 10px; */
+    /* padding: 5%; */
 
 }
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+/* div.contact {
+    width: 100%;
+} */
+
+h3 {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.about {
+    font-size: 24px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    /* width: 100%; */
+}
+
+.contact {
+    padding: 5%;
+    font-size: 20px;
+    /* width: 100%; */
+
+}
+
+.input {
+    width: 100%;
+    font-family: 'VT323', monospace; 
+    color: blue;
+    font-size: 20px;
+}
+
+.counter {
+    color: yellow;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 8;
+}
+
+
